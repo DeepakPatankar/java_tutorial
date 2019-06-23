@@ -22,6 +22,8 @@ Welcome to my introduction to Collections and Exceptions. This tutorial guides y
 
 ## The Collection Interface
 
+![Collection hierarchy](https://github.com/DeepakPatankar/java_tutorial/blob/master/java-collection-hierarchy.png)
+
 A collection helps us to store and manipulate objects. We can do operations like addition, deletion, searching, sorting, modifying.
 
 |  Type | Operation | Syntax |
@@ -251,6 +253,7 @@ public int compareTo(Employee employee) {
 
 
 ### The Map Interface
+![Map Hierarchy](https://github.com/DeepakPatankar/java_tutorial/blob/master/java-map-hierarchy.png)
 ---
 Contains (key,value) pair. Map does not allow duplicate key.
 * HashMap : Implements Map
@@ -298,6 +301,9 @@ Could have also used :
 **How is HashMap implemented ?**
 
 HashMap is a part of the Java collection framework. It uses a technique called Hashing. It implements the map interface. It stores the data in the pair of Key and Value. HashMap contains an array of the nodes, and the node is represented as a class. It uses an array and LinkedList data structure internally for storing Key and Value. There are four fields in HashMap.
+
+![Map data](https://github.com/DeepakPatankar/java_tutorial/blob/master/working-of-hashmap-in-java.png)
+
 
 
 ### Object Ordering
@@ -367,7 +373,9 @@ public class Name implements Comparable<Name> {
 
 When an error occurs within a method, the method creates an object and hands it off to the runtime system. The object, called an exception object, contains information about the error, including its type and the state of the program when the error occurred. Creating an exception object and handing it to the runtime system is called throwing an exception.
 
-After a method throws an exception, the runtime system attempts to find something to handle it. The set of possible "somethings" to handle the exception is the ordered list of methods that had been called to get to the method where the error occurred. The list of methods is known as the call stack
+After a method throws an exception, the runtime system attempts to find something to handle it. The set of possible "somethings" to handle the exception is the ordered list of methods that had been called to get to the method where the error occurred. The list of methods is known as the call stack.
+
+![Exception Handling](https://github.com/DeepakPatankar/java_tutorial/blob/master/exceptions-errorOccurs.gif)
 
 ### The Catch and Specify
 
