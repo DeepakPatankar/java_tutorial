@@ -368,6 +368,16 @@ public class Name implements Comparable<Name> {
     }
 }
 ```
+### Algorithms
+
+|  Algorithm | Syntax |
+| --- | --- |
+|  Sort | Collections.sort(list); |
+|  Shuffle | Collections.shuffle(list); |
+|  reverse | Collections.reverse(list); |
+|  swap | collection.swap(list,1,2); |
+|  binary search | int pos = Collections.binarySearch(list, key); |
+
 
 ## Exceptions
 
