@@ -196,6 +196,10 @@ public class CountDown {
 
 ### Priority Queue
 ---
+**Exercise 1** : Try /codes/PriorityEx
+
+Solution
+
 `public PriorityQueue(int initialCapacity,
              Comparator<? super E> comparator)
 `
