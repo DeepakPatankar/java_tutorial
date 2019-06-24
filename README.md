@@ -275,7 +275,7 @@ Contains (key,value) pair. Map does not allow duplicate key.
 
 ```java
 import java.util.*;  
-public class MapExample1 {  
+public class MapExample {  
 public static void main(String[] args) {  
     Map map=new HashMap(); 
 	
@@ -283,7 +283,7 @@ public static void main(String[] args) {
     map.put(1,"Amit");  
     map.put(5,"Rahul");  
     map.put(2,"Jai");  
-    map.put(6,"Amit");  
+    map.put(5,"Amit");  
 	
     //Traversing Map  
     Set set=map.entrySet();//Converting to Set so that we can traverse  
