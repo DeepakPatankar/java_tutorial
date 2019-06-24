@@ -30,7 +30,7 @@ A collection helps us to store and manipulate objects. We can do operations like
 | --- | --- | --- |
 |  Modification | public boolean add(E e) | list.add("a"); |
 |   | public boolean remove(Object element) | list.remove(obj); |
-|   | public int clear() | list.clear(); |
+|   | public void clear() | list.clear(); |
 |  Query | public void size() | list.size(); |
 |   | public boolean contains(Object element) | list.contains(obj); |
 
