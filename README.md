@@ -402,7 +402,7 @@ A program must satisfy the catch and specify requirement:
 2. Error : These are exceptional conditions that are external to the application, and that the application usually cannot anticipate or recover from. For example, suppose that an application successfully opens a file for input, but is unable to read the file because of a hardware or system malfunction. 
 3. These are exceptional conditions that are internal to the application, and that the application usually cannot anticipate or recover from. These usually indicate programming bugs, such as logic errors or improper use of an API.
 
-try this code : 
+try and edit this code : 
 ```java
 import java.io.*;
 import java.util.List;
