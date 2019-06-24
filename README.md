@@ -443,7 +443,7 @@ catch and finally blocks . . .
 
 example : 
 
-```
+```java
 try {
 } catch (IndexOutOfBoundsException e) {
     System.err.println("IndexOutOfBoundsException: " + e.getMessage());
