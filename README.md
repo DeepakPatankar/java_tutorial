@@ -488,7 +488,7 @@ try {
 }
 ```
 
-** Why throw early, catch later ? **
+**Why `throw early, catch later` ?**
 We want to catch the exception at a particular point where we have enought information about the error.
 
 ### Creating Exception
