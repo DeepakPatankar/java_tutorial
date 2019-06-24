@@ -398,7 +398,7 @@ A program must satisfy the catch and specify requirement:
 * A method that specifies that it can throw the exception. The method must provide a throws clause that lists the exception, as described in Specifying the Exceptions Thrown by a Method.
 
 **Types**
-1. Checked Error
+1. Checked Error : Checked at compile time.
 2. Error : These are exceptional conditions that are external to the application, and that the application usually cannot anticipate or recover from. For example, suppose that an application successfully opens a file for input, but is unable to read the file because of a hardware or system malfunction. 
 3. These are exceptional conditions that are internal to the application, and that the application usually cannot anticipate or recover from. These usually indicate programming bugs, such as logic errors or improper use of an API.
 
