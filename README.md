@@ -334,7 +334,7 @@ public class EmpSort {
 }
 ```
 
-*Using Comparable
+* Using Comparable
 ```java
 import java.util.*;
 
