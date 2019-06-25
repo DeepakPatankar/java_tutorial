@@ -137,7 +137,7 @@ public class App {
 }
 ```
 
-###Synchronisation
+### Synchronisation
 ---
 * Thread Interference
 ```java
@@ -380,7 +380,8 @@ public class WorkerThreadPool {
         System.out.println("Time taken: " + (end - start));
         System.out.println("List1: " + worker.list1.size() + "; List2: " + worker.list2.size());
     }
-}```
+}
+```
 
 ### CountDown Latch
 ---
